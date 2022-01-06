@@ -1,0 +1,12 @@
+.ContactSection {
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contactheading {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3rem;
+  color: #622aff;
+}

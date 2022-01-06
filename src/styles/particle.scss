@@ -1,6 +1,6 @@
 /* Config */
 $color-bg: #1e1e1e;
-$color-particle: #fff;
+$color-particle: rgba(255, 255, 255, 0.356);
 $spacing: 2560px;
 $time-1: 60s;
 $time-2: 120s;
@@ -33,7 +33,7 @@ $time-4: 200s;
   background-blend-mode: screen;
   background-size: cover;
   filter: grayscale(100%);
-  z-index: -1;
+  z-index: -2;
 }
 
 .particle,
