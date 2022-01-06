@@ -57,6 +57,53 @@
   color: white;
   margin-top: -20px;
 }
+@media (max-width: 1199.5px) {
+  .skillCard img {
+    margin-bottom: 1em;
+    width: 50px;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .smallcard {
+    width: 18em;
+    height: 11em;
+    margin-top: 25px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+  }
+  .bigcard {
+    width: 12em;
+    height: 23em;
+    margin-top: 40px;
+  }
+  .skillcaption {
+    margin-top: -5px;
+  }
+}
+
+@media (max-width: 991.5px) {
+  .skillCard img {
+    margin-bottom: 1em;
+    width: 40px;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .smallcard {
+    width: 15em;
+    height: 11em;
+    margin-top: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+  }
+  .bigcard {
+    width: 10em;
+    height: 23em;
+    margin-top: 25px;
+  }
+  .skillcaption {
+    margin-top: -5px;
+  }
+}
 @media screen and (min-width: 800px) {
   .bigcard {
     padding-top: 2em;

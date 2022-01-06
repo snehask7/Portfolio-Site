@@ -16,7 +16,7 @@ const Projects = () => {
                 <h1 className="projectheading">Projects</h1>
                 <Container>
                     <Row>
-                        <Col md="4">
+                        <Col lg="4" md="6" sm="12">
                             <div className="projectCard">
                                 <img alt="Project" className="projectimg" src={eng1}></img>
 
@@ -30,7 +30,7 @@ const Projects = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col md="4">
+                        <Col lg="4" md="6" sm="12">
                             <div className="projectCard">
                                 <img alt="Project" src={swa1} className="projectimg" ></img>
 
@@ -38,12 +38,12 @@ const Projects = () => {
                                     Temple Accounting Application
                                 </h4>
                                 <p className="projectInfo">
-                                    Developed during my internship at Swaztik Solutions. Temple related data and accounting information such as journals, contra, expenses can be added. Ledgers can be generated from the data.
+                                    Developed during my internship at Swaztik Solutions. Temple related data and accounting infor such as journals, contra, expenses can be added. Ledgers can be generated from the data.
 
                                 </p>
                             </div>
                         </Col>
-                        <Col md="4">
+                        <Col lg="4" md="6" sm="12">
                             <div className="projectCard">
                                 <img alt="Project" src={invente} className="projectimg" ></img>
 
@@ -56,7 +56,7 @@ const Projects = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col md="4">
+                        <Col lg="4" md="6" sm="12">
                             <div className="projectCard">
                                 <img alt="Project" src={acm} className="projectimg" ></img>
 
@@ -69,7 +69,7 @@ const Projects = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col md="4">
+                        <Col lg="4" md="6" sm="12">
                             <div className="projectCard">
                                 <img alt="Project" src={gn1} className="projectimg" ></img>
 
@@ -82,12 +82,12 @@ const Projects = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col md="4">
+                        <Col lg="4" md="6" sm="12">
                             <div className="projectCard">
                                 <img alt="Project" src={ers1} className="projectimg" ></img>
 
                                 <h4 className="projectname" >
-                                    Employee Recruitment System
+                                    Recruitment System
                                 </h4>
                                 <p className="projectInfo">
                                     An application to facilitate the job hiring process for
@@ -95,9 +95,7 @@ const Projects = () => {
                                 </p>
                             </div>
                         </Col>
-
-
-                        <Col md="4">
+                        <Col lg="4" md="6" sm="12">
                             <div className="projectCard">
                                 <img alt="Project" src={swa1} className="projectimg" ></img>
                                 <h4 className="projectname" >

@@ -15,21 +15,21 @@ const About = () => {
                     <Col md="6" sm="12" style={{ textAlign: "center" }}> <img alt="avatar" className="ProfilePic" width="500" src={AboutImage}></img>
                         <Row className="resumebox" style={{ textAlign: 'center' }}>
                             <ul >
-                                <li><FaGithub /></li>
-                                <li><FaLinkedinIn /></li>
+                                <li><a href="https://github.com/snehask7"><FaGithub /></a></li>
+                                <li><a href="https://www.linkedin.com/in/sneha-sriram-/"><FaLinkedinIn /></a></li>
                                 <li><FaFileAlt /></li>
                             </ul>
                         </Row>
                     </Col>
                     <Col ><div className="aboutInfo"><p >
-                        My name is Sneha Sriram and I'm a final year Computer Science student at SSN College of Engineering, Chennai. I am passionate towards designing and developing software applications. I love exploring new technologies and working on projects.
+                        My name is Sneha Sriram and I'm a final year Computer Science student at SSN College of Engineering, Chennai. I am passionate towards designing and developing software applications. I love exploring new technologies and working projects.
                     </p><br />
 
                     </div>
                     </Col>
                 </Row>
 
-            </Container>
+            </Container >
             <div className="resumeboxmobile" style={{ textAlign: 'center' }}>
                 <ul>
                     <li ><FaGithub /></li>
@@ -37,7 +37,7 @@ const About = () => {
                     <li><FaFileAlt /></li>
                 </ul>
             </div>
-        </Container>
+        </Container >
     );
 };
 
