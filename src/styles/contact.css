@@ -64,6 +64,7 @@ textarea {
 textarea {
   height: 65px;
   color: #e0e1e4;
+  padding-top: 10px;
 }
 input[type="text"][placeholder] {
   color: #e0e1e4;
