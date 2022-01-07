@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { FaFileAlt, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import AboutImage from "../assets/about.svg";
 import "../styles/about.css";
-
+import resume from './resume.pdf';
 const About = () => {
 
     return (
@@ -17,7 +17,7 @@ const About = () => {
                             <ul >
                                 <li><a href="https://github.com/snehask7"><FaGithub /></a></li>
                                 <li><a href="https://www.linkedin.com/in/sneha-sriram-/"><FaLinkedinIn /></a></li>
-                                <li><FaFileAlt /></li>
+                                <li><a href={resume} target="_blank"><FaFileAlt /></a></li>
                             </ul>
                         </Row>
                     </Col>

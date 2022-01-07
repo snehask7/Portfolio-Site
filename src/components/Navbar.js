@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-
+import resume from './resume.pdf';
 function NavBar() {
     const [expand, updateExpanded] = useState(false);
     const [navColour, updateNavbar] = useState(false);
@@ -76,7 +76,7 @@ function NavBar() {
                             {/* </Nav.Link> */}
                         </Nav.Item>
                         <Nav.Item>
-                            <b>Resume</b>
+                            <a href={resume} target="_blank"> <b>Resume</b></a>
                         </Nav.Item>
                         <Nav.Item>
                             {/* <Nav.Link
