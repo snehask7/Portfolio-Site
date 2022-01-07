@@ -22,7 +22,7 @@ const About = () => {
                         </Row>
                     </Col>
                     <Col ><div className="aboutInfo"><p >
-                        My name is Sneha Sriram and I'm a final year Computer Science student at SSN College of Engineering, Chennai. I am passionate towards designing and developing software applications. I love exploring new technologies and working projects.
+                        My name is Sneha and I'm a final year Computer Science student at SSN College of Engineering, Chennai. I am passionate towards designing and developing software applications. I love exploring new technologies and working on projects.
                     </p><br />
 
                     </div>

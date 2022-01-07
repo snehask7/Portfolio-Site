@@ -27,7 +27,7 @@ function NavBar() {
             <Container>
                 <Navbar.Brand href="#home">
                     <Nav.Item style={{ fontWeight: '900', color: "#00adb5" }}>
-                        <b>Sneha Sriram</b>
+                        <b>Sneha SK</b>
                     </Nav.Item>
                 </Navbar.Brand>
                 <Navbar.Toggle
@@ -75,15 +75,18 @@ function NavBar() {
                             </a>
                             {/* </Nav.Link> */}
                         </Nav.Item>
-
-
+                        <Nav.Item>
+                            <b>Resume</b>
+                        </Nav.Item>
                         <Nav.Item>
                             {/* <Nav.Link
                 as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)}
               > */}
-                            <b>Contact</b>
+                            <a href="#contact">
+                                <b>Contact</b>
+                            </a>
                             {/* </Nav.Link> */}
                         </Nav.Item>
 

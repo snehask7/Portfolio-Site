@@ -13,6 +13,7 @@
   border-radius: 20px;
   padding: 20px;
   margin-bottom: 40px;
+  height: 90%;
 }
 .projectimg {
   width: 100%;
@@ -80,4 +81,22 @@ figcaption {
   .projectInfo {
     font-size: 12px;
   }
+}
+.tech {
+  background: rgba(74, 126, 197, 0.4);
+  border: 2px solid rgb(117, 165, 233) !important;
+  color: rgb(117, 165, 233) !important;
+  padding: 3px;
+  border-radius: 20px;
+  width: 4.6em;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.techcontainer {
+  text-align: center;
+  align-items: center;
+  border: 1px solid white;
+  display: flex;
 }
