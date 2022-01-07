@@ -1,7 +1,6 @@
 import emailjs from 'emailjs-com';
 import React from 'react';
 import { Container } from "react-bootstrap";
-import '../../node_modules/react-toastify/dist/ReactToastify.css';
 import "../styles/contact.css";
 
 const Contact = () => {
