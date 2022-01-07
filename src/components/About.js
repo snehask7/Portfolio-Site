@@ -17,7 +17,7 @@ const About = () => {
                             <ul >
                                 <li><a href="https://github.com/snehask7"><FaGithub /></a></li>
                                 <li><a href="https://www.linkedin.com/in/sneha-sriram-/"><FaLinkedinIn /></a></li>
-                                <li><a href={resume} target="_blank"><FaFileAlt /></a></li>
+                                <li><a rel="noreferrer" href={resume} target="_blank"><FaFileAlt /></a></li>
                             </ul>
                         </Row>
                     </Col>

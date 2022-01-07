@@ -76,7 +76,7 @@ function NavBar() {
                             {/* </Nav.Link> */}
                         </Nav.Item>
                         <Nav.Item>
-                            <a href={resume} target="_blank"> <b>Resume</b></a>
+                            <a rel="noreferrer" href={resume} target="_blank"> <b>Resume</b></a>
                         </Nav.Item>
                         <Nav.Item>
                             {/* <Nav.Link
