@@ -32,9 +32,9 @@ const About = () => {
             </Container >
             <div className="resumeboxmobile" style={{ textAlign: 'center' }}>
                 <ul>
-                    <li ><FaGithub /></li>
-                    <li><FaLinkedinIn /></li>
-                    <li><FaFileAlt /></li>
+                    <li><a href="https://github.com/snehask7"><FaGithub /></a></li>
+                    <li><a href="https://www.linkedin.com/in/sneha-sriram-/"><FaLinkedinIn /></a></li>
+                    <li><a rel="noreferrer" href={resume} target="_blank"><FaFileAlt /></a></li>
                 </ul>
             </div>
         </Container >
