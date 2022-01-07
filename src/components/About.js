@@ -1,7 +1,7 @@
 import { default as React } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { FaFileAlt, FaGithub, FaLinkedinIn } from "react-icons/fa";
-import AboutImage from "../assets/about.svg";
+import AboutImage from "../assets/about-girl2.png";
 import "../styles/about.css";
 import resume from './resume.pdf';
 const About = () => {
@@ -12,7 +12,7 @@ const About = () => {
             <Container>
                 <h1 className="aboutheading"> About</h1>
                 <Row >
-                    <Col md="6" sm="12" style={{ textAlign: "center" }}> <img alt="avatar" className="ProfilePic" width="500" src={AboutImage}></img>
+                    <Col md="6" sm="12" style={{ textAlign: "center" }}> <img alt="avatar" className="ProfilePic" width="300" src={AboutImage}></img>
                         <Row className="resumebox" style={{ textAlign: 'center' }}>
                             <ul >
                                 <li><a href="https://github.com/snehask7"><FaGithub /></a></li>
