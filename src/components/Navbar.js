@@ -27,7 +27,7 @@ function NavBar() {
             <Container>
                 <Navbar.Brand href="#home">
                     <Nav.Item style={{ fontWeight: '900', color: "#00adb5" }}>
-                        <b>Sneha SK</b>
+                        <b>Sneha</b>
                     </Nav.Item>
                 </Navbar.Brand>
                 <Navbar.Toggle
