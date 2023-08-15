@@ -22,7 +22,7 @@ const About = () => {
                         </Row>
                     </Col>
                     <Col ><div className="aboutInfo"><p >
-                       I'm a final year Computer Science student at SSN College of Engineering, Chennai. I am passionate towards designing and developing software applications. I love exploring new technologies and working on projects.
+                       I'm a Software Developer at Amazon, Chennai. I am passionate towards designing and developing software applications. I love exploring new technologies and working on projects.
                     </p><br />
 
                     </div>
